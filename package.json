@@ -1,0 +1,43 @@
+{
+  "name": "grunt-custom-bootstrap",
+  "description": "Grunt plugin for customizing bootstrap.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thomasgohard/grunt-custom-bootstrap",
+  "author": {
+    "name": "Thomas Gohard",
+    "email": "thomas@gohard-soutar.com",
+    "url": "https://github.com/thomasgohard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasgohard/grunt-custom-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thomasgohard/grunt-custom-bootstrap/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/thomasgohard/grunt-custom-bootstrap/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
